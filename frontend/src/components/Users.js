@@ -25,7 +25,7 @@ function Users({ selectUser }) {
     <div className="flex flex-wrap items-center pb-16">
       {console.log(data.users)}
       {data.users.map(user => (
-        <div key={user.id} className="lg:w-1/3 w-full p-4 text-center inline" onClick={(user) => selectUser.bind(user)} >
+        <div key={user.id} className="lg:w-1/3 w-full p-4 text-center inline" onClick={selectUser.bind(this, user)} >
           <UserAvatar user={user} />
         </div>
       ))}

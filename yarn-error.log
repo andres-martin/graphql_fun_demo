@@ -1,5 +1,5 @@
 Arguments: 
-  /usr/local/bin/node /usr/local/Cellar/yarn/1.22.0/libexec/bin/yarn.js tailwind init --full
+  /usr/local/bin/node /usr/local/Cellar/yarn/1.22.0/libexec/bin/yarn.js install
 
 PATH: 
   /Users/apena/.rvm/gems/ruby-2.6.3/bin:/Users/apena/.rvm/gems/ruby-2.6.3@global/bin:/Users/apena/.rvm/rubies/ruby-2.6.3/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/munki:/Users/apena/.rvm/bin:/Users/apena/.rvm/bin
@@ -17,15 +17,7 @@ Trace:
   Error: EACCES: permission denied, scandir '/Users/apena/.config/yarn/link'
 
 npm manifest: 
-  {
-    "dependencies": {
-      "tailwindcss": "^1.2.0"
-    },
-    "devDependencies": {
-      "autoprefixer": "^9.7.4",
-      "postcss-cli": "^7.1.0"
-    }
-  }
+  No manifest
 
 yarn manifest: 
   No manifest

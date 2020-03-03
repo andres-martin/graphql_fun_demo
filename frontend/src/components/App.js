@@ -7,7 +7,7 @@ class App extends React.Component {
     selectedUser: null
   }
 
-  selectedUser = (user) => {
+  selectUser = (user) => {
     this.selectState({ selectedUser: user })
   }
 
